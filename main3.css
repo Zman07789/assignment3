@@ -1,0 +1,97 @@
+/*By Zackary Paulson*/
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+}
+
+header {
+    background-image: url('assets3/mars.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+main {
+    padding: 20px;
+}
+
+.float-quote {
+    float: left;
+    font-size: 17px;
+    margin-right: 20px;
+    color: white;
+    max-width: 175px;
+    background-color: black;
+    border-top: 7px solid white;
+    border-bottom: 7px solid white;
+    margin-left: 0px;
+}
+
+.over-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.content-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img {
+    float: right;
+    margin: 0 0 20px 20px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+h3.special-header {
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .float-quote {
+        font-size: 16px;
+    }
+
+    img {
+        float: none;
+        margin: 0 auto 20px auto;
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    h3.special-header {
+        margin-left: 0;
+    }
+}
